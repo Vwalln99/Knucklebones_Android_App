@@ -62,14 +62,12 @@ class OfflinePlay : AppCompatActivity() {
                 val cell = binding.playerBoard.getChildAt(row * 3 + col)
                 val opponentCell = binding.computerBoard.getChildAt(row * 3 + col)
 
-                // Für Spieler 1
                 cell.setOnClickListener {
                     if (isPlayerTurn) {
                         placeDieForCurrentPlayer(col, row, playerBoard)
                     }
                 }
 
-                // Für Spieler 2
                 opponentCell.setOnClickListener {
                     if (!isPlayerTurn) {
                         placeDieForCurrentPlayer(col, row, opponentBoard)
