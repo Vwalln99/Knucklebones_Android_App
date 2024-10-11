@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Knucklebones</string>
+    <string name="logo_name">Knucklebones_Logo</string>
+    <string name="info_button">Infobutton for rules</string>
+    <string name="player_name_hint">Enter your name (max 5 chars)</string>
+    <string name="easy_button">Easy</string>
+    <string name="rules_h1">Rules</string>
+    <string name="rules_1">
+Players take turns rolling a single six-sided die and placing it on their side of the board.
+        Each player has their own 3x3 grid, and their score is the total of all the dice currently placed there.
+        When one player has filled all nine slots on their board, the game ends, and the player with
+        the highest score wins.
+    </string>
+    <string name="rules_2">
+    Each player`s grid is divided into three columns. If a player has two or three dice showing the same
+    number in a single column, their values are added together and multiplied by the number of matches.
+    </string>
+<string name="rules_3">
+    If a player places a die that matches one or more dice in their opponent`s corresponding column,
+    all of their opponent`s matching dice are removed. This allows you to get rid of high-scoring dice,
+    even doubles or triples, as long as you have somewhere for your matching die to go.
+</string>
+    <string name="rules_4">
+    While the game is luck-based, being strategic with your die placement is the best way to win consistently.
+    </string>
+    <string name="ok_button">OK</string>
+    <string name="opponent_name">Computer</string>
+    <string name="opponent_score">Points: 0</string>
+    <string name="main_name">Player</string>
+    <string name="main_score">Points: 0</string>
+    <string name="back_to_main">back to main</string>
+    <string name="medium_button">Medium</string>
+    <string name="offline_button">Offline</string>
+
+</resources>
