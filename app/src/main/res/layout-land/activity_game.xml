@@ -21,6 +21,7 @@
         android:textSize="40sp"
         android:textStyle="bold"
         android:textColor="@color/darkred"
+        android:fontFamily="@font/cinzel_variable_font_weight"
         />
     <ImageButton
         android:id="@+id/infoButtonRules"
@@ -40,7 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginBottom="40dp">>
+        android:layout_marginBottom="40dp">
 
         <FrameLayout
         android:id="@+id/opponent_container"
@@ -75,6 +76,7 @@
                 android:textColor="@color/opponentcolor"
                 android:padding="8dp"
                 android:layout_gravity="start"
+                android:fontFamily="@font/cinzel_variable_font_weight"
                 />
             <TextView
                 android:id="@+id/opponent_score"
@@ -87,6 +89,7 @@
                 android:padding="8dp"
                 android:layout_marginTop="30dp"
                 android:layout_gravity="start"
+                android:fontFamily="@font/cinzel_variable_font_weight"
                 />
 
         </FrameLayout>

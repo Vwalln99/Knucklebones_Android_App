@@ -24,24 +24,27 @@
         android:textColor="@color/darkred"
         android:textStyle="bold"
         android:textAlignment="center"
+        android:fontFamily="@font/cinzel_variable_font_weight"
     />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="12dp"
             android:text="@string/rules_1"
-            />
+            android:fontFamily="@font/cinzel_variable_font_weight"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="12dp"
             android:text="@string/rules_2"
+            android:fontFamily="@font/cinzel_variable_font_weight"
             />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="12dp"
             android:text="@string/rules_3"
+            android:fontFamily="@font/cinzel_variable_font_weight"
             />
         <TextView
             android:layout_width="match_parent"
@@ -49,6 +52,7 @@
             android:padding="12dp"
             android:text="@string/rules_4"
             android:textStyle="bold"
+            android:fontFamily="@font/cinzel_variable_font_weight"
             />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -61,6 +65,7 @@
             android:textColor="@color/white"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
+            android:fontFamily="@font/cinzel_variable_font_weight"
             />
     </LinearLayout>
 

@@ -25,6 +25,7 @@
             android:textSize="40sp"
             android:textStyle="bold"
             android:textColor="@color/darkred"
+            android:fontFamily="@font/cinzel_variable_font_weight"
             />
         <ImageButton
             android:id="@+id/infoButtonRules"
@@ -35,7 +36,8 @@
             android:background="@color/lightgray"
             android:contentDescription="@string/info_button"
             android:layout_gravity="end"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/cinzel_variable_font_weight"
             />
     </FrameLayout>
 
@@ -65,8 +67,9 @@ android:layout_marginTop="-150dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:textAlignment="center"
-        android:textSize="16sp"
+        android:textSize="12sp"
         android:maxLength="6"
+        android:fontFamily="@font/cinzel_variable_font_weight"
         />
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/easyButton"
@@ -78,8 +81,9 @@ android:layout_marginTop="-150dp"
         android:layout_marginTop="100dp"
         android:textColor="@color/white"
         android:textAlignment="center"
-        android:textSize="24sp"
+        android:textSize="20sp"
         android:layout_marginEnd="70dp"
+        android:fontFamily="@font/cinzel_variable_font_weight"
         />
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/mediumButton"
@@ -91,8 +95,9 @@ android:layout_marginTop="-150dp"
         android:layout_marginTop="100dp"
         android:textColor="@color/white"
         android:textAlignment="center"
-        android:textSize="24sp"
-        android:layout_marginStart="70dp"/>
+        android:textSize="20sp"
+        android:layout_marginStart="70dp"
+        android:fontFamily="@font/cinzel_variable_font_weight"/>
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/offlineButton"
         android:layout_width="100dp"
@@ -103,8 +108,9 @@ android:layout_marginTop="-150dp"
         android:layout_marginTop="180dp"
         android:textColor="@color/white"
         android:textAlignment="center"
-        android:textSize="24sp"
-        android:layout_marginStart="0dp"/>
+        android:textSize="20sp"
+        android:layout_marginStart="0dp"
+        android:fontFamily="@font/cinzel_variable_font_weight"/>
 
 </FrameLayout>
 </LinearLayout>
